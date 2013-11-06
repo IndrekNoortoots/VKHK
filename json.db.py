@@ -1,5 +1,4 @@
 import json
-import os
 
 firstname = raw_input('Enter your firstname: ')
 lastname = raw_input('Enter your lastname: ')
