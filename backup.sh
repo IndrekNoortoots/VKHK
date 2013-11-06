@@ -7,7 +7,7 @@ echo 'Backup done!'
 
 echo 'Starting upload to ftp server'
 #Todo, add some upload functions
-ftp -n ftp.resac.eu <<END_SCRIPT
+ftp -n backup.resac.eu <<END_SCRIPT
 quote USER backup
 quote PASS xxxXXxx
 put backup.tar.gz
