@@ -16,7 +16,7 @@ for x in xrange(1,5):
     print
     pass
 print body.format('Kaup','Hind','Kogus','Kokku')
-print body.format('Hapukapsas','5 KG','1','5')
+print body.format('Hapukapsas','5','1 KG','5')
 print body.format('Kartul','5','1 KG','5')
 print
 print price.format('Vahesumma', '10')
